@@ -1,7 +1,7 @@
 # Menu navigation links
 
 - title: Resume
-  url: {{ site.url }}/resume/
+  url: /resume/
 
 - title: External Link
   url: https://github.com/tengbinlive
