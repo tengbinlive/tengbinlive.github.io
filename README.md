@@ -1,2 +1,1 @@
-# tengbinlive.github.io
-[tengbin.me](https://tengbinlive.github.io/)
+# [tengbin](https://tengbinlive.github.io/)
