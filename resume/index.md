@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 滕斌
+title: teng bin
 image:
   feature: abstract-5.jpg
 comments: false
