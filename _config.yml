@@ -1,22 +1,22 @@
-title:            TENG BIN
-description:      recording.
+title:            Site Title
+description:      Describe your website here.
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
-# Your site's domain goes here
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 url:
 
 # Owner/author information
 owner:
-  name:           teng bin
+  name:           Your Name
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          tengbinlive@gmail.com
+  email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         https://github.com/tengbinlive
+  github:         
   stackexchange:  
   linkedin:       
   instagram:      
