@@ -39,8 +39,15 @@ timezone:    America/New_York
 future:      true
 highlighter: rouge
 markdown:    kramdown
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+sass:
+  sass_dir: _sass
+  style: compressed
 
-#
+# https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
