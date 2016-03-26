@@ -3,7 +3,7 @@ layout: post
 title: find bugs 静态检查工具
 description: "FindBugs 是一个静态分析工具."
 modified: 2016-03-26
-tags: [tool]
+tags: [android-tool , post]
 image:
   feature: abstract-8.jpg
 ---
@@ -42,7 +42,7 @@ FindBugs 是一个静态分析工具，它检查类或者 JAR 文件，
 
 6. Performance 性能问题
 
-7. Dodgy 危险的
+7. Dodgy 危险的 
 
 #### 可能导致错误的代码：
 
