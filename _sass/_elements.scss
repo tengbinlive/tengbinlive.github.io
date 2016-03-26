@@ -62,6 +62,7 @@ svg:not(:root) {
 // Buttons
 // --------------------------------------------------
 .btn-menu {
+  display: none;
   margin-bottom: 20px;
   padding: 8px 20px;
   @include font-rem(14);
