@@ -3,9 +3,9 @@ layout: post
 title: find bugs 静态检查工具
 description: "FindBugs 是一个静态分析工具."
 modified: 2016-03-26
-tags: [android , code ,tool]
+tags: [tool]
 image:
-  feature: abstract-10.jpg
+  feature: abstract-8.jpg
 ---
 
 ## find bugs 静态检查工具
@@ -30,19 +30,19 @@ FindBugs 是一个静态分析工具，它检查类或者 JAR 文件，
 
 ## Bug分类
 
-Bad practice 坏的实践
+1. Bad practice 坏的实践
 
-Correctness 一般的正确性问题
+2. Correctness 一般的正确性问题
 
-Internationalization 国际化
+3. Internationalization 国际化
 
-Malicious code vulnerability 可能受到的恶意攻击
+4. Malicious code vulnerability 可能受到的恶意攻击
 
-Multithreaded correctness 多线程的正确性
+5. Multithreaded correctness 多线程的正确性
 
-Performance 性能问题
+6. Performance 性能问题
 
-Dodgy 危险的
+7. Dodgy 危险的
 
 #### 可能导致错误的代码：
 
