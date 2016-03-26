@@ -37,16 +37,7 @@
 	button:hover,
 	button.dl-active,
 	ul {
-		background-color: $danger;
-		color: $white;
-		border-color: $danger;
-		&:visited {
-			color: $white;
-		}
-		&:hover {
-			background-color: $white;
-			color: $danger;
-		}
+		background: #aaa;
 	}
 	button:after {
 		content: '';
@@ -364,6 +355,7 @@ All this is done for any sub-level being entered.
 		display: block;
 	}
 }
+
 // Menu Color
 .dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active,
