@@ -37,7 +37,16 @@
 	button:hover,
 	button.dl-active,
 	ul {
-		background: #aaa;
+		background-color: $danger;
+		color: $white;
+		border-color: $danger;
+		&:visited {
+			color: $white;
+		}
+		&:hover {
+			background-color: $white;
+			color: $danger;
+		}
 	}
 	button:after {
 		content: '';
@@ -361,6 +370,7 @@ All this is done for any sub-level being entered.
 .dl-menuwrapper ul {
 	background: $comp-color;
 }
+
 // Fix for IE
 .dl-menu li {
 	display: none

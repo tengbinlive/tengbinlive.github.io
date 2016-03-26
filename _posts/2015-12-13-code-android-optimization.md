@@ -5,7 +5,7 @@ description: "android 优化."
 modified: 2015-12-13
 tags: [android-optimization , post]
 image:
-  feature: abstract-1.jpg
+  feature: abstract-11.jpg
 ---
 
 1. 使用手机自带 （开发人员选项->调试GPU 过度绘制）界面过度绘制 （优化layout排列&层级）
