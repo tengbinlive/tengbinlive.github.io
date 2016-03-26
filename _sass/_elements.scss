@@ -61,25 +61,6 @@ svg:not(:root) {
 
 // Buttons
 // --------------------------------------------------
-.btn-menu {
-  display: none;
-  margin-bottom: 20px;
-  padding: 8px 20px;
-  @include font-rem(14);
-  background-color: $primary;
-  color: $white;
-  border-width: 2px !important;
-  border-style: solid !important;
-  border-color: $primary;
-  @include rounded(3px);
-  &:visited {
-    color: $white;
-  }
-  &:hover {
-    background-color: $white;
-    color: $primary;
-  }
-}
 .btn {
   display: inline-block;
   margin-bottom: 20px;
