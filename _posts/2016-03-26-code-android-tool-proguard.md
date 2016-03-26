@@ -8,7 +8,7 @@ image:
   feature: abstract-8.jpg
 ---
 
-###### sdk/tools/proguard/bin 目录下有个retrace.bat工具可以将混淆后的报错堆栈解码成正常的类名
+#### sdk/tools/proguard/bin 目录下有个retrace.bat工具可以将混淆后的报错堆栈解码成正常的类名
 
 
 #### 使用方法如下:
