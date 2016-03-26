@@ -44,7 +44,7 @@ image:
 #### 使用浏览器查看
 
 {% highlight html %}
-build/outputs/lint-results.html
+    build/outputs/lint-results.html
 {% endhighlight %}
 
 
