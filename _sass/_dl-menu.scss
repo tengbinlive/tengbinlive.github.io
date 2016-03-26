@@ -343,7 +343,16 @@ All this is done for any sub-level being entered.
 		display: none;
 	}
 	.dl-menuwrapper li > a:not(:only-child) {
-		background: rgba(0,0,0,0.1);
+			background-color: $danger;
+			color: $white;
+			border-color: $danger;
+			&:visited {
+				color: $white;
+			}
+			&:hover {
+				background-color: $white;
+				color: $danger;
+			}
 	}
 	.dl-menuwrapper li > a:not(:only-child):after {
 		content: '';
