@@ -14,6 +14,17 @@ image:
 
 在SM-9200 中，如果是RelativeLayout布局中嵌套 自定义MGridView（显示全部item），
 
+{% highlight html %}
+@Override
+public void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+
+   int expandSpec = MeasureSpec.makeMeasureSpec(Integer.MAX_VALUE >> 2,
+                MeasureSpec.AT_MOST);
+   super.onMeasure(widthMeasureSpec, expandSpec);
+   
+}
+{% endhighlight %}
+
 MGridView 需至于某布局下面时（layout_below），
 
 在初始MGridView时会导致高度计算，当前布局中可能出现布局错乱.
