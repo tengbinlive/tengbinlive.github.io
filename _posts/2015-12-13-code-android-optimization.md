@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android Optimization
-description: "android 优化."
+description: "优化相关."
 modified: 2015-12-13
 tags: [android-optimization , post]
 image:
