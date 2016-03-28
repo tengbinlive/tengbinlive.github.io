@@ -3,7 +3,7 @@ layout: post
 title: Android Compatible
 description: "兼容问题."
 modified: 2015-12-13
-tags: [android-optimization , post]
+tags: [android-compatible , post]
 image:
   feature: abstract-10.jpg
 ---
