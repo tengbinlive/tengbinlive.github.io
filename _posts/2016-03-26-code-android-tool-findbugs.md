@@ -17,7 +17,7 @@ FindBugs 是一个静态分析工具，它检查类或者 JAR 文件，
 有了静态分析工具，就可以在不实际运行程序的情况对软件进行分析.
 
 
-## 静态代码分析工具的优势
+### 静态代码分析工具的优势
 
 1. 帮助程序开发人员自动执行静态代码分析，快速定位代码隐藏错误和缺陷。
 
@@ -26,7 +26,7 @@ FindBugs 是一个静态分析工具，它检查类或者 JAR 文件，
 3. 显著减少在代码逐行检查上花费的时间，提高软件可靠性并节省软件开发和测试成本。
 
 
-## Bug分类
+### Bug分类
 
 1. Bad practice 坏的实践
 
@@ -42,6 +42,7 @@ FindBugs 是一个静态分析工具，它检查类或者 JAR 文件，
 
 7. Dodgy 危险的 
 
+
 #### 可能导致错误的代码：
 
 NP： 空指针被引用；在方法的异常路径里，空指针被引用；方法没有检查参数是否null；null值产生并被引用；null值产生并在方法的异常路径被引用；传给方法一个声明为@NonNull的null参数；方法的返回值声明为@NonNull实际是null。
@@ -52,11 +53,13 @@ SQL：方法尝试访问一个Prepared Statement的0索引；方法尝试访问�
 
 UwF：所有的write都把属性置成null，这样所有的读取都是null，这样这个属性是否有必要存在；或属性从没有被write。
 
+
 #### Internationalization 国际化
 
 当对字符串使用upper或lowercase方法，如果是国际的字符串，可能会不恰当的转换。
 
 Malicious code vulnerability 可能受到的恶意攻击
+
 
 #### 如果代码公开，可能受到恶意攻击的代码：
 
@@ -65,6 +68,7 @@ FI： 一个类的finalize()应该是protected，而不是public的。
 MS：属性是可变的数组；属性是可变的Hashtable；属性应该是package protected的。
 
 Multithreaded correctness 多线程的正确性
+
 
 #### 多线程编程时，可能导致错误的代码：
 
@@ -75,6 +79,7 @@ MWN：错误使用notify()，可能导致IllegalMonitorStateException异常；�
 No： 使用notify()而不是notifyAll()，只是唤醒一个线程而不是所有等待的线程。
 
 SC： 构造器调用了Thread.start()，当该类被继承可能会导致错误。
+
 
 #### Performance 性能问题 可能导致性能不佳的代码：
 
@@ -89,6 +94,7 @@ SS： 如果一个实例属性不被读取，考虑声明为static。
 UrF：如果一个属性从没有被read，考虑从类中去掉。
 
 UuF：如果一个属性从没有被使用，考虑从类中去掉。
+
 
 #### Dodgy 危险的 具有潜在危险的代码，可能运行期产生错误：
 
@@ -106,7 +112,8 @@ REC：直接捕获Exception，而实际上可能是RuntimeException。
 
 ST： 从实例方法里直接修改类变量，即static属性。
 
-## 总结
+
+### 总结
 
 Bad practice 坏的实践：常见代码错误，用于静态代码检查时进行缺陷模式匹配
 
