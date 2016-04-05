@@ -11,6 +11,9 @@ image:
 {% for post in paginator.posts %}
 <article class="hentry">
   <header>
+    
+    {% include scripts.html %}
+
     {% if post.image.feature %}
       <div class="entry-image-index">
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
