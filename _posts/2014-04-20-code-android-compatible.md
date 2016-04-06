@@ -13,7 +13,7 @@ image:
 转换成base64编码后都是一些数字与字母的组合，不会有特殊字符.
 
 
-{% highlight android %}
+{% highlight java %}
     FileInputStream fis = null;
     ByteArrayOutputStream baos = null;
     try {

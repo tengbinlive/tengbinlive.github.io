@@ -17,8 +17,10 @@ image:
 
 拿到版本发布时生成的mapping.txt
 
-执行命令retrace.bat -verbose mapping.txt obfuscated_trace.txt
-
+执行命令
+{% highlight java %}
+retrace.bat -verbose mapping.txt obfuscated_trace.txt
+{% endhighlight %}
 
 #### ProGuard 提供了命令行和 GUI 工具来还原混淆后的代码。
 
@@ -37,8 +39,9 @@ image:
 retrace.bat 为命令行工具， 把 mapping 文件和 要还原的堆栈信息保存在 stacktrace 文件中，
 
 然后把这两个文件复制到 retrace.bat 目录下，运行如下命令即可。
-
+{% highlight java %}
 retrace.bat -verbose mapping.txt stacktrace.txt > out.txt
+{% endhighlight %}
 
 
 

@@ -14,21 +14,21 @@ image:
 
 3. lint：（优化app 无用资源 & android 官方提供意见）
 
-{% highlight android %}
+{% highlight java %}
     run:
         gradle project -> tasks -> verification -> lint
 {% endhighlight %}
 
 #### 配置：
 
-{% highlight gradle %}
+{% highlight java %}
     apply plugin: 'com.droidtitan.lintcleaner'
     lintOptions{
         abortOnError false
     }
 {% endhighlight %}
 
-{% highlight gradle %}
+{% highlight java %}
     lintCleaner {
      // Exclude specific files
       exclude = ['com_crashlytics_export_strings.xml','config.xml']
