@@ -14,7 +14,7 @@ image:
 
 在SM-9200 中，如果是RelativeLayout布局中嵌套 自定义MGridView（显示全部item），
 
-{% highlight html %}
+{% highlight android %}
 @Override
 public void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
 
