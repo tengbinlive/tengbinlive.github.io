@@ -13,7 +13,7 @@ image:
 转换成base64编码后都是一些数字与字母的组合，不会有特殊字符.
 
 
-{% highlight java %}
+{% highlight android %}
     FileInputStream fis = null;
     ByteArrayOutputStream baos = null;
     try {
@@ -38,11 +38,11 @@ image:
                     fis.close();
                 if (null != baos)
                     baos.close();
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                // e.printStackTrace();
-                ret = false;
-            }
+                } catch (IOException e) {
+                    // TODO Auto-generated catch block
+                    // e.printStackTrace();
+                     ret = false;
+                }
        }
       return ret;
 {% endhighlight %}
