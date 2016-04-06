@@ -21,14 +21,14 @@ image:
 
 #### 配置：
 
-{% highlight java %}
+{% highlight html %}
     apply plugin: 'com.droidtitan.lintcleaner'
     lintOptions{
         abortOnError false
     }
 {% endhighlight %}
 
-{% highlight java %}
+{% highlight html %}
     lintCleaner {
      // Exclude specific files
       exclude = ['com_crashlytics_export_strings.xml','config.xml']
