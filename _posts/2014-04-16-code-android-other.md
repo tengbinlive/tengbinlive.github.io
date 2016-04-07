@@ -26,7 +26,7 @@ image:
   endif
   {% endhighlight %}
   
-  为
+   为
   
   {% highlight html %}
   ifndef CUSTOM_LOCALES
