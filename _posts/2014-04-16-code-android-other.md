@@ -33,6 +33,7 @@ image:
   
   CUSTOM_LOCALES:=
   mdpi ldpi hdpi xhdpi
+  
   endif
   {% endhighlight %}
 
