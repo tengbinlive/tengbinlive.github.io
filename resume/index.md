@@ -2,7 +2,7 @@
 layout: page
 title: teng bin
 image:
-  feature: abstract-5.jpg
+  feature: abstract-7.jpg
 comments: false
 modified: 2016-03-24
 ---
