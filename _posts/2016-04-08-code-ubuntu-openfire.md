@@ -186,7 +186,7 @@ vim openfire.xml
 4 enter键
 {% endhighlight %}
 
-#### 帐号无法登录时,使用vim 编辑 openfire.xml 配置文件 
+#### 帐号无法登录时,使用vim 编辑 openfire.xml 配置文件（使用admin登录） 
 
 ##### 添加
 {% highlight html %}
