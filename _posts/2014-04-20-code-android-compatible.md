@@ -11,8 +11,6 @@ image:
 #### 文件转换成base64编码，然后上传.
 
 转换成base64编码后都是一些数字与字母的组合，不会有特殊字符.
-
-
 {% highlight java %}
     FileInputStream fis = null;
     ByteArrayOutputStream baos = null;

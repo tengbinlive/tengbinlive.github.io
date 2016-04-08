@@ -11,7 +11,6 @@ image:
 #### 需要注意的两点：
 
 Android.mk文件中
-
 {% highlight html %}
 LOCAL_STATIC_JAVA_LIBRARIES := libjsoup libokhttp libksoap2 
 
@@ -19,7 +18,6 @@ LOCAL_STATIC_JAVA_LIBRARIES := libjsoup libokhttp libksoap2
 {% endhighlight %}
 
 #### 导入jar (每个jar 需要用 空格加\ 分隔“ \”)
-
 {% highlight html %}
 include $(CLEAR_VARS)
 

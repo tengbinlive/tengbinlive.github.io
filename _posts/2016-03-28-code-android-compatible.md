@@ -13,7 +13,6 @@ image:
 #### 机型：三星 SM-9200
 
 在SM-9200 中，如果是RelativeLayout布局中嵌套 自定义MGridView（显示全部item），
-
 {% highlight java %}
 @Override
 public void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {

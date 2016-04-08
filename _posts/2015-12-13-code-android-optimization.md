@@ -13,14 +13,12 @@ image:
 2. 使用Android Device Monitor -> Hierarchy View （优化layout 层级）
 
 3. lint：（优化app 无用资源 & android 官方提供意见）
-
 {% highlight java %}
     run:
         gradle project -> tasks -> verification -> lint
 {% endhighlight %}
 
 #### 配置：
-
 {% highlight html %}
     apply plugin: 'com.droidtitan.lintcleaner'
     lintOptions{
@@ -42,7 +40,6 @@ image:
 {% endhighlight %}
 
 #### 使用浏览器查看
-
 {% highlight html %}
     build/outputs/lint-results.html
 {% endhighlight %}

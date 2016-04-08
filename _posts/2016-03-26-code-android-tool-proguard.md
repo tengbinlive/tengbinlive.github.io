@@ -10,7 +10,6 @@ image:
 
 #### sdk/tools/proguard/bin 目录下有个retrace.bat工具可以将混淆后的报错堆栈解码成正常的类名
 
-
 #### 使用方法如下:
 
 将你的报错堆栈保存到文件中，如obfuscated_trace.txt

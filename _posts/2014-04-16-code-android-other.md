@@ -17,7 +17,6 @@ image:
   1. 进入build 目录 将buildspec.mk.default 文件复制一份到 工程bin目录下
   
   2. 修改其中 
-  
   {% highlight html %}
   ifndef CUSTOM_LOCALES
   
