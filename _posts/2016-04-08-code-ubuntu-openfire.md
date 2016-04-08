@@ -60,18 +60,20 @@ sudo mysql -u root -p
 
 #### 创建名为dbopenfire的数据库
 {% highlight html %}
-CREATE DATABASE dbopenfire CHARACTER SET='utf8';
+mysql>
+
+    CREATE DATABASE dbopenfire CHARACTER SET='utf8';
 {% endhighlight %}
 
 #### 用户名为openfire ，密码为openfirepwd
 {% highlight html %}
-CREATE USER 'openfire'@'localhost' IDENTIFIED BY 'openfirepwd';
+    CREATE USER 'openfire'@'localhost' IDENTIFIED BY 'openfirepwd';
 
-GRANT ALL PRIVILEGES ON dbopenfire.* TO openfire@localhost WITH GRANT OPTION;
+    GRANT ALL PRIVILEGES ON dbopenfire.* TO openfire@localhost WITH GRANT OPTION;
 
-FLUSH PRIVILEGES;
+    FLUSH PRIVILEGES;
 
-quit;
+    quit;
 {% endhighlight %}
 
 
