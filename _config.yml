@@ -5,7 +5,7 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //tengbinlive.github.io, http://tengbin.me, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: 
+url:
 
 # Owner/author information
 owner:
@@ -78,4 +78,4 @@ page_layout: page
 titlecase: true
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "CNAME.txt", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "*.sublime-project", "*.sublime-workspace", "spec", "Gruntfile.js", "node_modules"]
