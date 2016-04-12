@@ -27,7 +27,7 @@ image:
 ---
 
 
-### 注：Google、Gmail、维基百科、Twitter、Facebook等必须请用https 加密方式打开。
+### 注：Google、Gmail、维基百科、Twitter、Facebook等必须请用https 加密方式打开, 且保证 etc\ 目录下hosts的其他缓存文件已删除
 
 ---
 
