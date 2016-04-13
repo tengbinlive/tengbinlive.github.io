@@ -8,7 +8,7 @@ image:
   feature: abstract-10.jpg
 ---
 
-### Bug描述 
+### 描述 
 
 #### 机型：三星 SM-9200
 
@@ -28,7 +28,7 @@ MGridView 需至于某布局下面时（layout_below），
 
 在初始MGridView时会导致高度计算，当前布局中可能出现布局错乱.
 
-### Bug解决
+### 解决
 
 使用LinearLayout 代替 RelativeLayout
 
