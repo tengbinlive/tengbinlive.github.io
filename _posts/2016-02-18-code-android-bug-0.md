@@ -2,7 +2,7 @@
 layout: post
 title: Android Bug
 description: "bug 记录."
-modified: 2015-03-28
+modified: 2016-02-18
 tags: [android-bug , post]
 image:
   feature: abstract-4.jpg
@@ -31,21 +31,6 @@ webView.loadData(htmlData, "text/html", "UTF -8");//API提供的标准用法，�
 webView.loadData(htmlData, "text/html; charset=UTF-8", null);//这种写法可以正确解码
 {% endhighlight %}
 
-### 获取设备信息 SecurityException 异常
-
-buildToolsVersion 版本 >= 23时 ,权限会默认关闭，需要提醒用户设置 .
-
-[github相关开源库](https://github.com/Rowandjj/EasyPermission)
-
-[官方说明](https://developer.android.com/intl/zh-cn/training/permissions/requesting.html)
-{% highlight html %}
-添加设备信息读取权限
-<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-
-无处理直接调用获取IMEI号 ，将抛出异常
-java.lang.SecurityException: getDeviceId: has android.permission.READ_PHONE_STATE.
-{% endhighlight %}
-
 ### FragmentAdapter-notifyDataSetChanged()回调无效，需要重写以下方法：
 {% highlight html %}
 @Override
@@ -63,4 +48,19 @@ public Object instantiateItem(ViewGroup container, int position) {
 public int getItemPosition(Object object) {
     return PagerAdapter.POSITION_NONE;
 }
+{% endhighlight %}
+
+### 获取设备信息 SecurityException 异常
+
+buildToolsVersion 版本 >= 23时 ,权限会默认关闭，需要提醒用户设置 .
+
+[github相关开源库](https://github.com/Rowandjj/EasyPermission)
+
+[官方说明](https://developer.android.com/intl/zh-cn/training/permissions/requesting.html)
+{% highlight html %}
+添加设备信息读取权限
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+无处理直接调用获取IMEI号 ，将抛出异常
+java.lang.SecurityException: getDeviceId: has android.permission.READ_PHONE_STATE.
 {% endhighlight %}
