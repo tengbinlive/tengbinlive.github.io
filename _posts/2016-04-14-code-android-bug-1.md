@@ -20,6 +20,8 @@ image:
 
 {% highlight html %}
 //关闭Android Studio的PNG合法性检查的
-aaptOptions.cruncherEnabled = false
-aaptOptions.useNewCruncher = false
+ defaultConfig {
+        aaptOptions.cruncherEnabled = false
+        aaptOptions.useNewCruncher = false
+  }
 {% endhighlight %}
