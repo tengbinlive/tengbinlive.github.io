@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android Bug
-description: "bug 记录."
+description: "bug 记录 - 0."
 modified: 2016-02-18
 tags: [android-bug , post]
 image:
