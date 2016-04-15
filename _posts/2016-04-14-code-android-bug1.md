@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Android Bug
-description: "bug 记录 ."
+title: Android Bug 1
+description: "bug 记录 1."
 modified: 2016-04-14
 tags: [android-bug , post]
 image:
@@ -14,7 +14,15 @@ image:
 
 2. Error:Execution failed for task ':app:mergeDebugResources'.
    > Crunching Cruncher top_bg.9.png failed, see logs
-   
-3. Error: Invalid file name: must contain only lowercase letters and digits ([a-z0-9_.])
+
+3. Error: Invalid file name: must contain only lowercase letters and digits
+{% endhighlight %}
+
+{% highlight html %}
+//关闭Android Studio的PNG合法性检查的
+ defaultConfig {
+        aaptOptions.cruncherEnabled = false
+        aaptOptions.useNewCruncher = false
+  }
 {% endhighlight %}
 
