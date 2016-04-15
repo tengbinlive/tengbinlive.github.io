@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Android Compatible
-description: "兼容问题."
+title: Android 三星-SM-9200 兼容
+description: "三星-SM-9200 兼容问题."
 modified: 2016-03-28
 tags: [android-compatible , post]
 image:

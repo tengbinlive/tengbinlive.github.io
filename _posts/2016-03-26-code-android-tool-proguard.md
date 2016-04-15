@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ProGuard
+title: 使用ProGuard查看混淆后日志
 description: "还原混淆后的log方法."
 modified: 2016-03-26
 tags: [android-tool , post]

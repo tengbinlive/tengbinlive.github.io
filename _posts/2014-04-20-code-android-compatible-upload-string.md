@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Compatible
+title: Android 上传数据，避免String|特殊字符
 description: "上传服务器 避免String 特殊字符."
 modified: 2014-04-20
 tags: [android-compatible , post]
