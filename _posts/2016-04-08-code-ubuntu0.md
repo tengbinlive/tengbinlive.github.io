@@ -1,6 +1,6 @@
 ---
 layout: post
-title: aws 亚马逊 ubuntu 部署 openfire
+title: aws(亚马逊) ubuntu 部署 openfire
 description: "aws亚马逊ubuntu服务器，部署openfire."
 modified: 2016-04-08
 tags: [ubuntu-openfire , post]
