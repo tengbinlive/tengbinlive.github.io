@@ -1,6 +1,6 @@
 ---
 layout: page
-title: works demo
+title: DEMO
 image:
   feature: abstract-7.jpg
 comments: false
