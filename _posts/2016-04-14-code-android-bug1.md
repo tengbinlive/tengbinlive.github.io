@@ -27,3 +27,38 @@ image:
   }
 {% endhighlight %}
 
+### 使用 Glide 加载Transformation处理图片时 ，ImageView 图片效果不能被铺满
+
+### 描述
+布局
+{% highlight html %}
+     <ImageView
+            android:id="@+id/head_icon"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+{% endhighlight %}
+
+Glide
+{% highlight html %}
+      Glide.with(mContext.getApplicationContext()).load(iconUrl).asBitmap()
+                       .transform(blurTransformation)
+                       .diskCacheStrategy(DiskCacheStrategy.ALL)
+                       .placeholder(R.drawable.default_bg).into(head_icon);
+{% endhighlight %}
+
+### 处理 使用SimpleTarget，并通过setImageDrawable来设置图片
+
+Glide
+{% highlight html %}
+        Glide.with(mContext.getApplicationContext()).load(iconUrl).asBitmap()
+                         .transform(blurTransformation)
+                         .diskCacheStrategy(DiskCacheStrategy.ALL)
+                         .placeholder(R.drawable.default_bg).into(new SimpleTarget<Bitmap>() {
+                              @Override
+                              public void onResourceReady(Bitmap bitmap, GlideAnimation glideAnimation) {
+                                 BitmapDrawable bd =  new BitmapDrawable(getResources(),bitmap);
+                                 head_icon.setImageDrawable(bd);
+                          }
+                 });
+{% endhighlight %}
