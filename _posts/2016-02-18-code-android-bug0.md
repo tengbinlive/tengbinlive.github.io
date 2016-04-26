@@ -12,15 +12,15 @@ image:
  
 #### Wechat
  
-0. 如果分享类型跟数据填充不匹配，将无法调启微信客服端，如（url ="",分享类型为 = SHARE_WEBPAGE,会无法调启客服端）
+1. 如果分享类型跟数据填充不匹配，将无法调启微信客服端，如（url ="",分享类型为 = SHARE_WEBPAGE,会无法调启客服端）
   
-1. 超出限制也将无法调启客服端 比如(urlImage 大小，title 大小，content 大小)
+2. 超出限制也将无法调启客服端 比如(urlImage 大小，title 大小，content 大小)
   
 ### 混淆打包失败
 
-0. 混淆打包失败 除去app太大原因外，一般都是混淆配置文件少写造成的，警告可以使用-dontwarn 过滤
+1. 混淆打包失败 除去app太大原因外，一般都是混淆配置文件少写造成的，警告可以使用-dontwarn 过滤
 
-1. 确实依赖jar , 可能是在studio中删除过该jar ,然后使用快捷键回撤该jar (回撤后jar会无内容).
+2. 确实依赖jar , 可能是在studio中删除过该jar ,然后使用快捷键回撤该jar (回撤后jar会无内容).
 
 ### webView.loadData 乱码解决
 {% highlight html %}

@@ -31,7 +31,7 @@ dependencies {
 
 ### 使用
 
-0. 权限
+#### 权限
 {% highlight html %}
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -44,7 +44,7 @@ dependencies {
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 {% endhighlight %}
 
-1. 添加布局
+#### 添加布局
 {% highlight html %}
 <org.xwalk.core.XWalkView
      android:id="@+id/xwalk_view"
@@ -53,9 +53,9 @@ dependencies {
      android:background="@color/theme_bg_layout" />
 {% endhighlight %}
 
-2. XWalkView xWalkView = (XWalkView) findViewById(R.id.xwalk_view);
+#### 获取id XWalkView xWalkView = (XWalkView) findViewById(R.id.xwalk_view);
 
-3. 常用设置
+#### 常用设置
 {% highlight html %}
 0. debug调试
   XWalkPreferences.setValue(XWalkPreferences.REMOTE_DEBUGGING, true);
@@ -89,7 +89,7 @@ dependencies {
   }
 {% endhighlight %}
 
-5. 生命周期（避免内存问题）
+#### 生命周期（避免内存问题）
 {% highlight html %}
     @Override
     protected void onActivityResult(int requestCode, int resultCode,
@@ -144,7 +144,7 @@ dependencies {
     }
 {% endhighlight %}
 
-6. 动画开启
+#### 动画开启
 
 默认XWalkView不能使用动画，甚至setVisibility也不行
 {% highlight html %}

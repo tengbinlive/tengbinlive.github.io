@@ -8,11 +8,11 @@ image:
   feature: abstract-11.jpg
 ---
 
-0. 使用手机自带 （开发人员选项->调试GPU 过度绘制）界面过度绘制 （优化layout排列&层级）
+1. 使用手机自带 （开发人员选项->调试GPU 过度绘制）界面过度绘制 （优化layout排列&层级）
 
-1. 使用Android Device Monitor -> Hierarchy View （优化layout 层级）
+2. 使用Android Device Monitor -> Hierarchy View （优化layout 层级）
 
-2. lint：（优化app 无用资源 & android 官方提供意见）
+3. lint：（优化app 无用资源 & android 官方提供意见）
 {% highlight java %}
     run:
         gradle project -> tasks -> verification -> lint

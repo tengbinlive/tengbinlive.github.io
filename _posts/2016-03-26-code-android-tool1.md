@@ -26,7 +26,7 @@ retrace.bat -verbose mapping.txt obfuscated_trace.txt
 该工具位于  <android-sdk>/tools/proguard/bin/ 目录下。
 
 里面的 proguardgui.bat 为 GUI 工具，
-
+{% highlight html %}
 0. 运行 proguardgui.bat
 
 1. 从左边的菜单选择  “ReTrace”
@@ -34,6 +34,7 @@ retrace.bat -verbose mapping.txt obfuscated_trace.txt
 2. 在上面的 mapping 文件中选择你的 mapping 文件 ，在下面输入框输入要还原的代码
 
 3. 点击 “ReTrace!” 
+{% endhighlight %}
 
 retrace.bat 为命令行工具， 把 mapping 文件和 要还原的堆栈信息保存在 stacktrace 文件中，
 

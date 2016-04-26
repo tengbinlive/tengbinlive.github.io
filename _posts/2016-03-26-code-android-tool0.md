@@ -19,28 +19,28 @@ FindBugs 是一个静态分析工具，它检查类或者 JAR 文件，
 
 ### 静态代码分析工具的优势
 
-0. 帮助程序开发人员自动执行静态代码分析，快速定位代码隐藏错误和缺陷。
+1. 帮助程序开发人员自动执行静态代码分析，快速定位代码隐藏错误和缺陷。
 
-1. 帮助代码设计人员更专注于分析和解决代码设计缺陷。
+2. 帮助代码设计人员更专注于分析和解决代码设计缺陷。
 
-2. 显著减少在代码逐行检查上花费的时间，提高软件可靠性并节省软件开发和测试成本。
+3. 显著减少在代码逐行检查上花费的时间，提高软件可靠性并节省软件开发和测试成本。
 
 
 ### Bug分类
 
-0. Bad practice 坏的实践
+1. Bad practice 坏的实践
 
-1. Correctness 一般的正确性问题
+2. Correctness 一般的正确性问题
 
-2. Internationalization 国际化
+3. Internationalization 国际化
 
-3. Malicious code vulnerability 可能受到的恶意攻击
+4. Malicious code vulnerability 可能受到的恶意攻击
 
-4. Multithreaded correctness 多线程的正确性
+5. Multithreaded correctness 多线程的正确性
 
-5. Performance 性能问题
+6. Performance 性能问题
 
-6. Dodgy 危险的 
+7. Dodgy 危险的 
 
 
 #### 可能导致错误的代码：

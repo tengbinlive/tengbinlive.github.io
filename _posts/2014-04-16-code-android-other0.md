@@ -14,10 +14,10 @@ image:
   
 #### 需要修改
 
-  0. 进入build 目录 将buildspec.mk.default 文件复制一份到 工程bin目录下
+1. 进入build 目录 将buildspec.mk.default 文件复制一份到 工程bin目录下
   
-  1. 修改其中 
-  {% highlight html %}
+2. 修改其中 
+{% highlight html %}
   ifndef CUSTOM_LOCALES
   
   #CUSTOM_LOCALES:=
@@ -34,7 +34,7 @@ image:
   mdpi ldpi hdpi xhdpi
   
   endif
-  {% endhighlight %}
+{% endhighlight %}
 
 #### CUSTOM_LOCALES:=｛mdpi ldpi hdpi xhdpi｝ ｛｝中为需要编译进apk 的目录
 
