@@ -10,15 +10,15 @@ image:
 
 ## ubuntu实例启动完成后
 
-### 1.配置实例安全组，可将HTTP,TCP,SMTP,SSH等相关需要的规则添加
+### 0.配置实例安全组，可将HTTP,TCP,SMTP,SSH等相关需要的规则添加
 
 
 
-### 2.使用putty 登录 ubuntu (在实例操作界面，点击连接有具体步骤)
+### 1.使用putty 登录 ubuntu (在实例操作界面，点击连接有具体步骤)
 
 
 
-### 3.先确保你的系统已经更新到最新 , 输入下面的命令更新
+### 2.先确保你的系统已经更新到最新 , 输入下面的命令更新
 {% highlight html %}
 sudo apt-get update
 
@@ -27,7 +27,7 @@ sudo apt-get upgrade
     
     
     
-### 4.安装最新版本的Oracle JRE/JDK，使用PPA(personal package archieve)WEBUPD8的方式安装
+### 3.安装最新版本的Oracle JRE/JDK，使用PPA(personal package archieve)WEBUPD8的方式安装
 {% highlight html %}
 sudo apt-get install python-software-properties
 
@@ -48,7 +48,7 @@ sudo apt-get install oracle-java7-installer
 
 
 
-### 5.安装mysql数据库，安装过程中会有提示框输入mysql密码
+### 4.安装mysql数据库，安装过程中会有提示框输入mysql密码
 {% highlight html %}
 sudo apt-get install mysql-server
 {% endhighlight %}
@@ -78,7 +78,7 @@ mysql>
 
 
 
-### 6.下载并且安装openfire，相关版本可以在[openfire官网查看](http://www.igniterealtime.org/downloads/index.jsp)
+### 5.下载并且安装openfire，相关版本可以在[openfire官网查看](http://www.igniterealtime.org/downloads/index.jsp)
 {% highlight html %}
 cd /tmp
 
@@ -113,7 +113,7 @@ sudo service openfire start
 
 
 
-### 7.配置openfire的相关端口, 你需要安装防火墙并且允许一些openfire的端口通过
+### 6.配置openfire的相关端口, 你需要安装防火墙并且允许一些openfire的端口通过
 
 #### 如未安装（默认有安装）
 
@@ -143,7 +143,7 @@ sudo ufw allow 3479/tcp
 
 
 
-### 8.使用浏览器登录配置http://localhost:9090/setup/index.jsp
+### 7.使用浏览器登录配置http://localhost:9090/setup/index.jsp
 
 #### localhost需要换成自己服务器公共ip地址
 

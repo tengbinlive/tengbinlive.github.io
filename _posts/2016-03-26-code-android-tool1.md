@@ -27,13 +27,13 @@ retrace.bat -verbose mapping.txt obfuscated_trace.txt
 
 里面的 proguardgui.bat 为 GUI 工具，
 
-1) 运行 proguardgui.bat
+0. 运行 proguardgui.bat
 
-2) 从左边的菜单选择  “ReTrace”
+1. 从左边的菜单选择  “ReTrace”
 
-3) 在上面的 mapping 文件中选择你的 mapping 文件 ，在下面输入框输入要还原的代码
+2. 在上面的 mapping 文件中选择你的 mapping 文件 ，在下面输入框输入要还原的代码
 
-4) 点击 “ReTrace!” 
+3. 点击 “ReTrace!” 
 
 retrace.bat 为命令行工具， 把 mapping 文件和 要还原的堆栈信息保存在 stacktrace 文件中，
 
