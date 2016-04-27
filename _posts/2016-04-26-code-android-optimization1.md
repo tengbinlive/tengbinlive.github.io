@@ -12,7 +12,7 @@ image:
 
 ## [APIs](https://crosswalk-project.org/documentation/apis/embedding_api.html)
 
-### 注意如需在Fragment|Activity中同时使用，需在Application中initialize
+### *注意如需在Fragment|Activity中同时使用，需在Application中initialize
 
 {% highlight html %}
 ApplicationStatus.initialize(this);
@@ -31,7 +31,7 @@ allprojects {
 
 {% highlight html %}
 dependencies {
-    compile 'org.xwalk:xwalk_core_library:10.39.235.15'
+    compile 'org.xwalk:xwalk_core_library:17.46.448.10'
 }
 {% endhighlight %}
 
