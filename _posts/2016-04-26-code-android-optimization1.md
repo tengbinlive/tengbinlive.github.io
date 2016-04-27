@@ -12,24 +12,10 @@ image:
 
 ## [APIs](https://crosswalk-project.org/documentation/apis/embedding_api.html)
 
-### 注意如需在Fragment|Activity中同时使用，需在Fragment中添加onNewIntent(),且重写父Activity中的onNewIntent()
+### 注意如需在Fragment|Activity中同时使用，需在Application中initialize
 
 {% highlight html %}
-Activity:
-@Override
-protected void onNewIntent(Intent intent) {
-        super.onNewIntent(intent);
-        if(null!=fragments){
-            fragments.onNewIntent(intent);
-        }
-    }
-
-Fragment:
-public void onNewIntent(Intent intent) {
-        if (xWalkView != null) {
-            xWalkView.onNewIntent(intent);
-        }
-    }
+ApplicationStatus.initialize(this);
 {% endhighlight %}
 
 
