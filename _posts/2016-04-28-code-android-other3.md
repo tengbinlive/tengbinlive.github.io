@@ -79,7 +79,7 @@ image:
 
 ##  <h id="4">android open project</h>
 
-####  android相关的开源项目大全
+####  android相关开源项目
 
 [List of Android UI/UX Libraries](https://github.com/wasabeef/awesome-android-ui)
 
@@ -114,7 +114,7 @@ image:
 
 ##  <h id="7">android treatment</h>
 
-####  没事放松放松，代码写多了没女朋友
+####  生活不易，宜行宜珍惜
 
 [bilibili](http://www.bilibili.com/video/ent_funny_1.html)
 
