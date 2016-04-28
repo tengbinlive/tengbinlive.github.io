@@ -19,7 +19,7 @@ image:
 * [android treatment](#7)
 
 
-##  [ - 翻墙- ](http://tengbin.me/live1/)
+##  [ - 翻墙 - ](http://tengbin.me/live1/)
 
 
 ##  <h id="1">android bug</h>
@@ -48,7 +48,7 @@ image:
 
 ####  常用的工具
 
-[sourcetreeapp - interface.test](https://www.sourcetreeapp.com/) - git | hg 客户端
+[sourcetreeapp - interface.test](https://www.sourcetreeapp.com/) - git/hg 客户端
 
 [postman - interface.test](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) - 接口调试
 
@@ -60,13 +60,13 @@ image:
 
 [google - analysis](https://www.google.com/analytics/) - 数据统计分析
 
-[androiddevtools - download](http://www.androiddevtools.cn/) - sdk|androidstudio等工具大全下载
+[androiddevtools - download](http://www.androiddevtools.cn/) - sdk/androidstudio 等工具大全下载
 
 [markdown - text](https://zh.wikipedia.org/wiki/Markdown) - 轻量级的「标记语言」
 
 [sublimetext - text](http://www.sublimetext.com/) - 文本编辑
 
-[getmarkman - image](http://www.getmarkman.com/) - 图片取色值|标注
+[getmarkman - image](http://www.getmarkman.com/) - 图片 取色值/标注
 
 [json - data](http://json.parser.online.fr/) - 数据排版
 
