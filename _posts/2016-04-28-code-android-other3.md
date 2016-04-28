@@ -24,24 +24,36 @@ image:
 
 ##  <h id="1">android bug</h>
 
-####  基本上能找到你遇到过的所有错误信息
+####  总能找到你遇到的错误信息
 
-[stackoverflow](http://stackoverflow.com/)
+[stackoverflow](http://stackoverflow.com/) 
 
 [google](https://www.google.com/)
 
 [github](https://github.com/)
 
+[grepcode](http://www.grepcode.com/) 
+
 
 ##  <h id="2">android info</h>
 
-####  Anroid相关的最新资讯
+####  Anroid相关的资讯
+
+[codekk](http://p.codekk.com/)
+
+[yalantis](https://yalantis.com)
 
 [v2ex.android](http://v2ex.com/go/android)
 
 [reddit.androiddev](https://www.reddit.com/r/androiddev/)
 
+#####  不懂欣赏的程序员不是好美工
+
 [dribbble](https://dribbble.com/search?q=app)
+
+[materialup](http://www.materialup.com/)
+
+[fluidui](https://www.fluidui.com/)
 
 
 ##  <h id="3">android tool</h>
