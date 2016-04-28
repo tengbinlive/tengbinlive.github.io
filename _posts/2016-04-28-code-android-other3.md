@@ -18,7 +18,9 @@ image:
 * [android personal](#6)
 * [android treatment](#7)
 
-##  [ - 翻墙](http://tengbin.me/live1/)
+
+##  [ - 翻墙- ](http://tengbin.me/live1/)
+
 
 ##  <h id="1">android bug</h>
 
@@ -44,36 +46,31 @@ image:
 
 ##  <h id="3">android tool</h>
 
-####  interface.test - 接口调试
-####  app.test -  内存版本发布
-####  management- 团队管理
-####  analysis - 数据统计分析
-####  download - sdk|androidstudio等工具下载
-####   text - 文本编辑
-####   image - 图片编辑
-####   data - 数据排版
+####  常用的工具
 
-[postman - interface.test](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
+[sourcetreeapp - interface.test](https://www.sourcetreeapp.com/) - git | hg 客户端
 
-[fir - app.test](http://fir.im/)
+[postman - interface.test](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) - 接口调试
 
-[team.oschina - management](https://team.oschina.net/)
+[fir - app.test](http://fir.im/) - 测试发布
 
-[gitlab - management](http://www.gitlab.cc/downloads/)
+[team.oschina - management](https://team.oschina.net/) - 团队管理(平台,线上)
 
-[google - analysis](https://www.google.com/analytics/)
+[gitlab - management](http://www.gitlab.cc/downloads/) - 团队管理（本地,线下）
 
-[androiddevtools - download](http://www.androiddevtools.cn/)
+[google - analysis](https://www.google.com/analytics/) - 数据统计分析
 
-[markdown - text](https://zh.wikipedia.org/wiki/Markdown)
+[androiddevtools - download](http://www.androiddevtools.cn/) - sdk|androidstudio等工具大全下载
 
-[sublimetext - text](http://www.sublimetext.com/)
+[markdown - text](https://zh.wikipedia.org/wiki/Markdown) - 轻量级的「标记语言」
 
-[getmarkman - image](http://www.getmarkman.com/)
+[sublimetext - text](http://www.sublimetext.com/) - 文本编辑
 
-[json - data](http://json.parser.online.fr/)
+[getmarkman - image](http://www.getmarkman.com/) - 图片取色值|标注
 
-[translate - data](http://translate.google.cn/)
+[json - data](http://json.parser.online.fr/) - 数据排版
+
+[translate - data](http://translate.google.cn/) - 翻译
 
 
 ##  <h id="4">android open project</h>
