@@ -8,6 +8,10 @@ image:
   feature: abstract-7.jpg
 ---
 
+
+## android bug：
+
+
 ## android bug：
 ### 基本上能找到你遇到过的所有错误信息
 
@@ -41,6 +45,10 @@ image:
 
 [androiddevtools - download](http://www.androiddevtools.cn/)
 
+[markdown - text](https://zh.wikipedia.org/wiki/Markdown)
+
+[getmarkman - image](http://www.getmarkman.com/)
+
 [json - data](http://json.parser.online.fr/)
 
 [translate - data](http://translate.google.cn/)
@@ -54,7 +62,6 @@ image:
 
 ## android team：
 ### 值得关注的团队
---- | --- | ---
 
 ![Google Android](https://avatars3.githubusercontent.com/u/1342004?s=80 "Google Android") | https://github.com/google | http://android-developers.blogspot.com/
 
@@ -66,7 +73,6 @@ image:
 
 ## android personal：
 ### 值得关注的个人
---- | --- | ---
 
 ![JakeWharton](https://avatars0.githubusercontent.com/u/66577?s=80 "JakeWharton") | https://github.com/JakeWharton | http://jakewharton.com/
 
