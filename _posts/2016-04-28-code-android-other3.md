@@ -48,7 +48,11 @@ image:
 
 ####  常用的工具
 
-[sourcetreeapp - interface.test](https://www.sourcetreeapp.com/) - git/hg 客户端
+[chrome](http://www.google.cn/chrome/browser/desktop/index.html) - 浏览器
+
+[google keep](https://chrome.google.com/webstore/detail/google-keep-notes-and-lis/hmjkmjkepdijhoojdojkdfohbdgmmhki?hl=zh-CN) - 在线记事
+
+[sourcetreeapp](https://www.sourcetreeapp.com/) - git/hg 客户端
 
 [postman - interface.test](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) - 接口调试
 
@@ -60,7 +64,7 @@ image:
 
 [google - analysis](https://www.google.com/analytics/) - 数据统计分析
 
-[androiddevtools - download](http://www.androiddevtools.cn/) - sdk/androidstudio 等工具大全下载
+[androiddevtools - download](http://www.androiddevtools.cn/) - android-sdk/intellij/androidstudio 等工具大全下载
 
 [markdown - text](https://zh.wikipedia.org/wiki/Markdown) - 轻量级的「标记语言」
 
