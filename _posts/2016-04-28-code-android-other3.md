@@ -48,9 +48,9 @@ image:
 
 ####  常用的工具
 
-[chrome](http://www.google.cn/chrome/browser/desktop/index.html) - 浏览器
+[google - chrome](http://www.google.cn/chrome/browser/desktop/index.html) - 浏览器
 
-[google keep](https://chrome.google.com/webstore/detail/google-keep-notes-and-lis/hmjkmjkepdijhoojdojkdfohbdgmmhki?hl=zh-CN) - 在线记事
+[google - keep](https://chrome.google.com/webstore/detail/google-keep-notes-and-lis/hmjkmjkepdijhoojdojkdfohbdgmmhki?hl=zh-CN) - 在线记事
 
 [sourcetreeapp](https://www.sourcetreeapp.com/) - git/hg 客户端
 
