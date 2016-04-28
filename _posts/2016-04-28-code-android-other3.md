@@ -9,9 +9,18 @@ image:
 ---
 
 
-##  [翻墙](http://tengbin.me/live1/)
 
-##  android bug
+* [android bug](#1)
+* [android info](#2)
+* [android tool](#3)
+* [android open project](#4)
+* [android team](#5)
+* [android personal](#6)
+* [android treatment](#7)
+
+##  [ - 翻墙](http://tengbin.me/live1/)
+
+##  <h id="1">android bug</h>
 
 ####  基本上能找到你遇到过的所有错误信息
 
@@ -22,7 +31,7 @@ image:
 [github](https://github.com/)
 
 
-##  android info
+##  <h id="2">android info</h>
 
 ####  Anroid相关的最新资讯
 
@@ -33,7 +42,7 @@ image:
 [dribbble](https://dribbble.com/search?q=app)
 
 
-##  android tool
+##  <h id="3">android tool</h>
 
 ####  interface.test - 接口调试
 ####  app.test -  内存版本发布
@@ -67,7 +76,7 @@ image:
 [translate - data](http://translate.google.cn/)
 
 
-##  android open project
+##  <h id="4">android open project</h>
 
 ####  android相关的开源项目大全
 
@@ -76,7 +85,7 @@ image:
 [Trinea](https://github.com/Trinea/android-open-project)
 
 
-##  android team
+##  <h id="5">android team</h>
 
 ####  值得关注的团队
 
@@ -89,7 +98,7 @@ image:
 ![greenrobot](https://avatars2.githubusercontent.com/u/242242?s=80 "greenrobot") | https://github.com/greenrobot | http://greenrobot.de/
 
 
-##  android personal
+##  <h id="6">android personal</h>
 
 ####  值得关注的个人
 
@@ -102,7 +111,7 @@ image:
 ![Sergey Tarasevich](https://avatars3.githubusercontent.com/u/1223348?s=80 "Sergey Tarasevich") | https://github.com/nostra13 | http://nostra13android.blogspot.com/
 
 
-##  android treatment
+##  <h id="7">android treatment</h>
 
 ####  没事放松放松，代码写多了没女朋友
 
