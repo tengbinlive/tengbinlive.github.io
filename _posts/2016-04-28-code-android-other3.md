@@ -9,28 +9,28 @@ image:
 ---
 
 
+##  [翻墙](http://tengbin.me/live1/)
+
 ##  android bug
 
 ####  基本上能找到你遇到过的所有错误信息
-{% highlight html %}
+
 [stackoverflow](http://stackoverflow.com/)
 
 [google](https://www.google.com/)
 
 [github](https://github.com/)
-{% endhighlight %}
 
 
 ##  android info
 
 ####  Anroid相关的最新资讯
-{% highlight html %}
+
 [v2ex.android](http://v2ex.com/go/android)
 
 [reddit.androiddev](https://www.reddit.com/r/androiddev/)
 
 [dribbble](https://dribbble.com/search?q=app)
-{% endhighlight %}
 
 
 ##  android tool
@@ -43,7 +43,7 @@ image:
 ####   text - 文本编辑
 ####   image - 图片编辑
 ####   data - 数据排版
-{% highlight html %}
+
 [postman - interface.test](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
 
 [fir - app.test](http://fir.im/)
@@ -65,23 +65,21 @@ image:
 [json - data](http://json.parser.online.fr/)
 
 [translate - data](http://translate.google.cn/)
-{% endhighlight %}
 
 
 ##  android open project
 
 ####  android相关的开源项目大全
-{% highlight html %}
+
 [List of Android UI/UX Libraries](https://github.com/wasabeef/awesome-android-ui)
 
 [Trinea](https://github.com/Trinea/android-open-project)
-{% endhighlight %}
 
 
 ##  android team
 
 ####  值得关注的团队
-{% highlight html %}
+
 ![Google Android](https://avatars3.githubusercontent.com/u/1342004?s=80 "Google Android") | https://github.com/google | http://android-developers.blogspot.com/
 
 ![FaceBook](https://avatars0.githubusercontent.com/u/69631?v=3&s=80 "FaceBook") | https://github.com/facebook | https://code.facebook.com/mobile
@@ -89,13 +87,12 @@ image:
 ![Square](https://avatars0.githubusercontent.com/u/82592?s=80 "Square") | https://github.com/square   | http://square.github.io/
 
 ![greenrobot](https://avatars2.githubusercontent.com/u/242242?s=80 "greenrobot") | https://github.com/greenrobot | http://greenrobot.de/
-{% endhighlight %}
 
 
 ##  android personal
 
 ####  值得关注的个人
-{% highlight html %}
+
 ![JakeWharton](https://avatars0.githubusercontent.com/u/66577?s=80 "JakeWharton") | https://github.com/JakeWharton | http://jakewharton.com/
 
 ![Chris Banes](https://avatars3.githubusercontent.com/u/227486?s=80 "Chris Banes")  | https://github.com/chrisbanes | http://chris.banes.me/
@@ -103,13 +100,12 @@ image:
 ![Jeremy Feinstein](https://avatars0.githubusercontent.com/u/1269143?s=80 "Jeremy Feinstein") | https://github.com/jfeinstein10 | http://jeremyfeinstein.com/
 
 ![Sergey Tarasevich](https://avatars3.githubusercontent.com/u/1223348?s=80 "Sergey Tarasevich") | https://github.com/nostra13 | http://nostra13android.blogspot.com/
-{% endhighlight %}
 
 
 ##  android treatment
 
 ####  没事放松放松，代码写多了没女朋友
-{% highlight html %}
+
 [bilibili](http://www.bilibili.com/video/ent_funny_1.html)
 
 [google+](https://plus.google.com/u/0/)
@@ -117,6 +113,7 @@ image:
 [twitter](https://twitter.com/)
 
 [music](http://www.xiami.com/song/1774054136?spm=a1z1s.6659509.226669510.9.KsGUTt&from=search_popup_song)
-{% endhighlight %}
+
+
 
 
