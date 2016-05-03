@@ -39,6 +39,8 @@ image:
 
 ####  Anroid相关的资讯
 
+[androidweekly](http://androidweekly.net/)
+
 [recordnotfound](https://recordnotfound.com/)
 
 [codekk](http://p.codekk.com/)
