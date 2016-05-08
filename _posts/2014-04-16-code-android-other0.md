@@ -8,10 +8,11 @@ image:
   feature: abstract-3.jpg
 ---
 
+
 当在源码下编译 生成apk ，
   
 在编译正常 运行apk错误时 有可能是 源码下配置生成apk时未讲需要的xhdpi等文件编辑进去
-  
+
 #### 需要修改
 
 1. 进入build 目录 将buildspec.mk.default 文件复制一份到 工程bin目录下

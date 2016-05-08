@@ -8,14 +8,15 @@ image:
   feature: abstract-4.jpg
 ---
 
+
 ### ShareSDK分享
- 
+
 #### Wechat
- 
+
 1. 如果分享类型跟数据填充不匹配，将无法调启微信客服端，如（url ="",分享类型为 = SHARE_WEBPAGE,会无法调启客服端）
-  
+
 2. 超出限制也将无法调启客服端 比如(urlImage 大小，title 大小，content 大小)
-  
+
 ### 混淆打包失败
 
 1. 混淆打包失败 除去app太大原因外，一般都是混淆配置文件少写造成的，警告可以使用-dontwarn 过滤
@@ -24,9 +25,9 @@ image:
 
 ### webView.loadData 乱码解决
 {% highlight html %}
-webView.getSettings().setDefaultTextEncodingName("UTF -8");//设置默认为utf-8  
+webView.getSettings().setDefaultTextEncodingName("UTF -8");//设置默认为utf-8
 
-webView.loadData(htmlData, "text/html", "UTF -8");//API提供的标准用法，无法解决乱码问题  
+webView.loadData(htmlData, "text/html", "UTF -8");//API提供的标准用法，无法解决乱码问题
 
 webView.loadData(htmlData, "text/html; charset=UTF-8", null);//这种写法可以正确解码
 {% endhighlight %}
