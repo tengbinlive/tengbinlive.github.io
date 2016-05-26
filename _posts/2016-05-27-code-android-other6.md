@@ -2,7 +2,7 @@
 layout: post
 title:  代码重构
 description: "代码重构 代码的坏味道 ."
-modified: 2016-05-26
+modified: 2016-05-27
 tags: [android-other , post]
 image:
   feature: abstract-2.jpg
