@@ -20,7 +20,7 @@ image:
 https://github.com/tengbinlive/aibao_demo.git
 {% endhighlight %}
 
-#### 修改为
+#### 修改为 (添加 username -> tengbinlive@)
 {% highlight html %}
 https://tengbinlive@github.com/tengbinlive/aibao_demo.git
 {% endhighlight %}
