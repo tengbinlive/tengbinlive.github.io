@@ -13,12 +13,14 @@ image:
 ####  获取cookie
 {% highlight java %}
 http:
+
 Header[] cookies = httpResponse.getHeaders("Set-Cookie");
 if(null != cookies && cookies.length > 0){
     String cookieStr = cookies[0].toString();
 }
 
 volley:
+
 String cookieStr = networkResponse.headers.get(SET_COOKIE_KEY)
 {% endhighlight %}
 
@@ -43,7 +45,7 @@ public static boolean syncCookie(String url,String cookie) {
 通常情况下获取到的cookie类似:
 Set-Cookie: JSESSIONID=725B63507EB2989AE6B38DF5698F1B23; Path=/sns/; HttpOnly
 
-如果是以下这种,会出现LOLLIPOP版本下内嵌html无法保存同一用户状态
+如果是以下这种,会出现LOLLIPOP版本下内嵌html无法保存同一用户状态:
 Set-Cookie: JSESSIONID=725B63507EB2989AE6B38DF5698F1B23
 {% endhighlight %}
 
