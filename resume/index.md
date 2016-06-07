@@ -21,4 +21,5 @@ modified: 2016-04-18
 
 <figure class="third">
     <a href="http://fir.im/z3cv" target="_blank"><img src="/images/device-2016-04-18-102232.png" alt=""></a>
+    <a href="http://fir.im/m5t8" target="_blank"><img src="/images/device-2016-06-07-120624.png" alt=""></a>
 </figure>
