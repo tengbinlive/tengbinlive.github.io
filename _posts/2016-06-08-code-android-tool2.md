@@ -15,7 +15,7 @@ image:
 ####  2. 抓包工具
 [charles](https://www.charlesproxy.com/)
 
-####  3. 快速游览github项目目录结构 (免费)
+####  3. 快速游览github项目目录结构
 [octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
 ####  4. 同步显示操作Android设备屏幕 (超清需付费)
