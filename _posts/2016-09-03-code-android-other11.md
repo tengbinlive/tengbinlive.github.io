@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Android ui dp .9.png svg2android
+title:  Android | ui | dp | .9.png | svg2android
 description: "ui px dp .9 svg 配色相关资料"
 modified: 2016-09-03
 tags: [android-other , post]
