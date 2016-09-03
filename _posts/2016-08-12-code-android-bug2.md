@@ -2,7 +2,7 @@
 layout: post
 title: Android Bug 2
 description: "bug 记录 2."
-modified: 2016-04-14
+modified: 2016-08-12
 tags: [android-bug , post]
 image:
   feature: abstract-4.jpg
