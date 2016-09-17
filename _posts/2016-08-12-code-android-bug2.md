@@ -21,4 +21,4 @@ image:
 
 #### fix
 
-修改RecyclerView -> android:layout_height="match_wrap_content".
+修改RecyclerView -> android:layout_height="wrap_content".
