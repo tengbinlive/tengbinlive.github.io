@@ -13,6 +13,7 @@ image:
 ### monkey test
 
 {% highlight html %}
-adb shell monkey -p com.binteng --throttle 200 --pct-syskeys 2 --ignore-crashes 100000000
+adb shell monkey -p com.binteng --throttle 200
+ --pct-syskeys 2 --ignore-crashes 100000000
 {% endhighlight %}
 
