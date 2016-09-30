@@ -5,7 +5,7 @@ description: "jenkins 集成git获取 android项目 使用gradle编译"
 modified: 2016-09-07
 tags: [android-other , post]
 image:
-  feature: abstract-7.jpg
+  feature: abstract-11.jpg
 ---
 
 
