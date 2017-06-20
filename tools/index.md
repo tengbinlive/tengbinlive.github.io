@@ -7,7 +7,7 @@ comments: false
 modified: 2017-06-20
 ---
 
-<figure class="two">
+<figure class="half">
     <a href="http://tengbin.me/color_transform/" target="_blank"><img src="/images/tools/hex-dec-color-transform.png" alt=""></a>
 </figure>
 
