@@ -13,9 +13,10 @@ image:
 ###  android studio 升级后同步时报错
 {% highlight html %}
 Re-download dependencies and sync project (requires network)
-The state of a Gradle build process (daemon) may be corrupt. Stopping all Gradle daemons may solve this problem
+The state of a Gradle build process (daemon) may be corrupt
+Stopping all Gradle daemons may solve this problem
 {% endhighlight %}
 
-#### 前往gradle系统目标 ".gradle\wrapper\dists" , 删除同步项目中gradle/wrapper/gradle-wrapper.properties对应版本,如:"gradle-4.1-all"
+#### 前往gradle系统目标 ".gradle\wrapper\dists" , 删除同步项目中gradle/wrapper/gradle-wrapper.properties文件中对应版本,如:"gradle-4.1-all"
 
-#### 重启android studio 
+#### 重启 android studio 
