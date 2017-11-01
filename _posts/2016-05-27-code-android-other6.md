@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  代码重构
-description: "代码重构 代码的坏味道 ."
+description: "<<重构——改善既有代码的设计>>"
 modified: 2016-05-27
 tags: [android-other , post]
 image:
@@ -10,9 +10,8 @@ image:
 
 
 
-### 是的，你要为你的代码负责，你要为你的接口负责，让用户只能正确地使用，难以误用。作为程序员，我们应该不断写出合格的，优秀的代码，而不是为这个本就糟糕透顶的世界添加更多的数字垃圾。
+### <<重构——改善既有代码的设计>> 笔记
 
--------   Scott Meyers
 
 ### 重复的代码
 {% highlight html %}
