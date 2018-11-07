@@ -39,10 +39,12 @@ timezone:    America/New_York
 future:      true
 highlighter: rouge
 markdown:    kramdown
+
 gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
+  
 sass:
   sass_dir: _sass
   style: compressed
@@ -76,10 +78,6 @@ post_layout: post
 page_layout: page
 # Format titles with titlecase?
 titlecase: true
-
-plugins:
-    - jekyll-paginate
-    - jekyll-sitemap
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "CNAME", "config", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "node_modules"]
