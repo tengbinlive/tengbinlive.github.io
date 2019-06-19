@@ -1,7 +1,7 @@
 ---
 layout: post
-title: XWalkView 替代 WebView
-description: "XWalkView 替代 WebView ."
+title: Android 内存优化总结
+description: "Android 内存优化总结"
 modified: 2016-04-26
 tags: [android-optimization , post]
 image:
