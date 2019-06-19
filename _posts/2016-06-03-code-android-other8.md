@@ -54,7 +54,7 @@ public void onLongPress(MotionEvent e){
 
 
 <figure>
-<a href="/images/OnGestureListener.jpg"><img src="/images/OnGestureListener.jpg" alt=""></a>
+<a href="/images/other/OnGestureListener.jpg"><img src="/images/other/OnGestureListener.jpg" alt=""></a>
 </figure>
 
 

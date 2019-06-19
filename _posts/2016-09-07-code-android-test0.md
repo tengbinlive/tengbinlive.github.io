@@ -33,7 +33,7 @@ image:
 {% endhighlight %}
 
 <figure>
-<a href="/images/jenkins_0.png"><img src="/images/jenkins_0.png" alt=""></a>
+<a href="/images/other/jenkins_0.png"><img src="/images/other/jenkins_0.png" alt=""></a>
 </figure>
 
 ### 配置构建
