@@ -2,7 +2,7 @@
 layout: post
 title: Android 内存优化总结
 description: "Android 内存优化总结"
-modified: 2016-04-26
+modified: 2019-06-19
 tags: [android-optimization , post]
 image:
   feature: abstract-7.jpg
